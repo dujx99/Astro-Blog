@@ -4,7 +4,7 @@ export default {
   // api 为空则使用 data 静态数据
   data: [
     {
-      "name": "韩小韩博客",
+      "name": "小杜老师的博客",
       "link": "https://www.vvhan.com",
       "avatar": "/assets/images/icon.png",
       "descr": "运气是计划之外的东西."

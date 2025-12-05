@@ -13,7 +13,7 @@ type: "links"
 :::
 
 ```yaml
-name: 韩小韩博客
+name: 小杜老师的博客
 link: https://www.vvhan.com/
 avatar: /assets/images/icon.png
 desc: 运气是计划之外的东西.

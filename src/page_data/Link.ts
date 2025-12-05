@@ -5,7 +5,7 @@ export default {
   data: [
     {
       "name": "小杜老师的博客",
-      "link": "https://www.vvhan.com",
+      "link": "https://blog.dujx.top",
       "avatar": "/assets/images/icon.png",
       "descr": "运气是计划之外的东西."
     },

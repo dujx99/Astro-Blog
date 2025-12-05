@@ -14,7 +14,7 @@ type: "links"
 
 ```yaml
 name: 小杜老师的博客
-link: https://www.vvhan.com/
+link: https://blog.dujx.top/
 avatar: /assets/images/icon.png
 desc: 运气是计划之外的东西.
 ```

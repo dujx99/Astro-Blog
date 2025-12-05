@@ -313,7 +313,7 @@ export default {
     "Exploring the depth of technology, sharing the infinite ideas",
   ],
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2025-12-01',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,

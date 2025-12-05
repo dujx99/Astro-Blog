@@ -261,7 +261,7 @@ export default {
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2025-12-01',
   // 首页打字机文案列表
   TypeWriteList: [
     "在数字的荒原上，种下一棵思考的树",

@@ -37,8 +37,7 @@ import GoogleAdInit from "@/scripts/GoogleAd";
 import HanAnalyticsInit from "@/scripts/HanAnalytics";
 //  谷歌 SEO 推送
 import SeoPushInit from "@/scripts/SeoPush";
-// SmoothScroll 滚动优化
-import SmoothScroll from "@/scripts/Smoothscroll";
+
 
 // ============================================================
 
@@ -51,8 +50,6 @@ const indexInit = async (only: boolean = true) => {
   only && initWebSiteTime();
   // 初始化BackTop组件
   only && BackTopInitFn();
-  // SmoothScroll 滚动优化
-  only && SmoothScroll();
   // 图片灯箱
   only && ViewImage();
   // 初始化文章代码块

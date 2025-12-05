@@ -157,6 +157,5 @@ export default {
     serverApi: "",
     paramsName: "url",
   },
-  // 页面阻尼滚动速度
-  ScrollSpeed: 666,
+
 };

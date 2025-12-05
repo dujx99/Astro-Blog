@@ -24,22 +24,22 @@ import GoogleAd from "@/components/GoogleAd/GoogleAd.astro";
 import "./Aside.less";
 ---
 
-<aside class="vh-aside">
+<aside class="aside">
 	<!-- 头像块 -->
 	{
 		AsideShow.WebSitesShow && (
-			<section class="vh-aside-item user">
-				<img class="vh-aside-avatar" src="/assets/images/lazy-loading.webp" data-vh-lz-src={Avatar} alt={Author} />
-				<span class="vh-aside-auther">{Author}</span>
-				<p class="vh-aside-motto">{Motto}</p>
-				<section class="vh-aside-links">
+			<section class="aside-item user">
+				<img class="aside-avatar" src="/assets/images/lazy-loading.webp" data-src={Avatar} alt={Author} />
+				<span class="aside-auther">{Author}</span>
+				<p class="aside-motto">{Motto}</p>
+				<section class="aside-links">
 					{WebSites.map(item => (
-						<a class="vh-aside-links-item" href={item.link} title={item.text} target="_blank" rel="noopener nofollow">
+						<a class="aside-links-item" href={item.link} title={item.text} target="_blank" rel="noopener nofollow">
 							<Svg src={item.icon} />
 						</a>
 					))}
 				</section>
-				<section class="vh-aside-info">
+				<section class="aside-info">
 					<div class="art-item count">
 						<span>{CountInfo.ArticleCount}</span>
 						<p>文章数</p>
@@ -53,7 +53,7 @@ import "./Aside.less";
 						<p>标签数</p>
 					</div>
 				</section>
-				<canvas class="vh-aside-canvas" width="888" height="1888" />
+				<canvas class="aside-canvas" width="888" height="1888" />
 			</section>
 		)
 	}
@@ -61,7 +61,7 @@ import "./Aside.less";
 	<!-- 公告块 -->
 	{
 		SITE_CONFIG.Tips && (
-			<section class="vh-aside-item tips">
+			<section class="aside-item tips">
 				<span>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -79,9 +79,9 @@ import "./Aside.less";
 	<!-- 分类块 -->
 	{
 		AsideShow.CategoriesShow && (
-			<section class="vh-aside-item cat">
+			<section class="aside-item cat">
 				<h3>分类</h3>
-				<div class="vh-aside-cat">
+				<div class="aside-cat">
 					{categories
 						.sort((a: any, b: any) => b.count - a.count)
 						.map(i => (
@@ -98,9 +98,9 @@ import "./Aside.less";
 	<!-- 标签块 -->
 	{
 		AsideShow.TagsShow && (
-			<section class="vh-aside-item tags">
+			<section class="aside-item tags">
 				<h3>热门标签</h3>
-				<div class="vh-aside-tags">
+				<div class="aside-tags">
 					{tags.map(i => (
 						<a href={`/tag/${i[0]}`}>
 							<span>{i[0]}</span>
@@ -115,9 +115,9 @@ import "./Aside.less";
 	<!-- 流量卡 -->
 	{
 		(
-			<section class="vh-aside-item adcard">
+			<section class="aside-item adcard">
 				<h3>精品流量卡</h3>
-				<a class="vh-aside-adcard" href="https://h5.lot-ml.com/ProductEn/Index/548465d7349b6599" target="_blank" rel="noopener noreferrer">
+				<a class="aside-adcard" href="https://h5.lot-ml.com/ProductEn/Index/548465d7349b6599" target="_blank" rel="noopener noreferrer">
 					<img src="/assets/images/phone-card.webp" alt="精品大流量卡" />
 				</a>
 			</section>
@@ -128,14 +128,14 @@ import "./Aside.less";
 		<!-- 最新文章块 -->
 		{
 			recommendArticles.length && AsideShow.recommendArticleShow && (
-				<section class="vh-aside-item articles">
+				<section class="aside-item articles">
 					<h3>推荐文章</h3>
-					<div class="vh-aside-articles">
+					<div class="aside-articles">
 						{recommendArticles.map((i, idx) => (
 							<a href={`/article/${i.id}`}>
 								<span>
 									{idx < 3 ? <i>{idx + 1}</i> : <em>{idx + 1}.</em>}
-									<cite class="vh-ellipsis">{i.title}</cite>
+									<cite class="ellipsis">{i.title}</cite>
 								</span>
 								<time>{fmtTime(i.date, "YYYY-MM-DD A")}</time>
 							</a>
@@ -148,9 +148,9 @@ import "./Aside.less";
 		<!-- 谷歌广告块 -->
 		{
 			GoogleAds.ad_Client && GoogleAds.asideAD_Slot && (
-				<section class="vh-aside-item ad">
+				<section class="aside-item ad">
 					<h3>广而告之</h3>
-					<GoogleAd className="vh-aside-ad" slotID={GoogleAds.asideAD_Slot} />
+					<GoogleAd className="aside-ad" slotID={GoogleAds.asideAD_Slot} />
 				</section>
 			)
 		}

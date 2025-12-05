@@ -158,12 +158,12 @@ export default {
 	// API 接口请求优先，数据格式保持和 data 一致
 	api: "",
 	// api 为空则使用 data 静态数据
-	// 注意：图片请用 vh-img-flex 类包裹
+	// 注意：图片请用 img-flex 类包裹
 	data: [
 		{
 			date: "2025-02-12 19:36:16",
 			tags: ["树", "夕阳"],
-			content: '好美🌲<p class="vh-img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/1655466387/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
+			content: '好美🌲<p class="img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/1655466387/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
 		},
 		{
 			date: "2024-10-05 16:16:06",
@@ -328,15 +328,15 @@ export default {
   Theme: {
     // 颜色请用 16 进制颜色码
     // 主题颜色
-    "--vh-main-color": "#01C4B6",
+    "--main-color": "#01C4B6",
     // 字体颜色
-    "--vh-font-color": "#34495e",
+    "--font-color": "#34495e",
     // 侧边栏宽度
-    "--vh-aside-width": "318px",
+    "--aside-width": "318px",
     // 全局圆角
-    "--vh-main-radius": "0.88rem",
+    "--main-radius": "0.88rem",
     // 主体内容宽度
-    "--vh-main-max-width": "1458px",
+    "--main-max-width": "1458px",
   },
   // 导航栏 (新窗口打开 newWindow: true)
   Navs: [

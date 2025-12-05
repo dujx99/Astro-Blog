@@ -5,9 +5,9 @@ import LazyLoad from "vanilla-lazyload";
 let lazyLoadStatus: any = null;
 export default () => {
   document.querySelectorAll(".main-inner>.main-inner-content img:not(.view-image-container)").forEach((i: any) => {
-    // 是否包含data-vh-lz-src
-    if (!i.hasAttribute("data-vh-lz-src")) {
-      i.setAttribute("data-vh-lz-src", i.getAttribute("src"));
+    // 是否包含data-src
+    if (!i.hasAttribute("data-src")) {
+      i.setAttribute("data-src", i.getAttribute("src"));
       i.setAttribute("src", '/assets/images/lazy-loading.webp');
     }
   });

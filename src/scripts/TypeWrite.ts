@@ -14,7 +14,7 @@ export default () => {
     if (!isDeleting) {
       if (index < TypeWriteList[TypeWriteListIndex].length) {
         index++;
-        setTimeout(run, 188); // 打字速度
+        setTimeout(run, 80); // 打字速度
       } else {
         // 完整展示后开始删除
         setTimeout(() => {
@@ -25,7 +25,7 @@ export default () => {
     } else {
       if (index > 0) {
         index--;
-        setTimeout(run, 88); // 删除速度（比打字快）
+        setTimeout(run, 50); // 删除速度（比打字快）
       } else {
         isDeleting = false;
         TypeWriteListIndex++;

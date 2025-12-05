@@ -138,7 +138,7 @@ export default {
 			name: "小杜老师的博客",
 			link: "https://blog.dujx.top",
 			avatar: "/assets/images/icon.png",
-			descr: "运气是计划之外的东西."
+			descr: "不被定义，自有光芒。"
 		},
 		{
 			name: "韩小韩API",
@@ -290,7 +290,7 @@ export default {
   // 作者头像
   Avatar: '/assets/images/icon.png',
   // 网站座右铭
-  Motto: '运气是计划之外的东西.',
+  Motto: '不被定义，自有光芒。',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)

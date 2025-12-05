@@ -113,7 +113,7 @@ export default {
 			name: "小杜老师的博客",
 			link: "https://blog.dujx.top",
 			avatar: "/assets/images/icon.png",
-			descr: "运气是计划之外的东西."
+			descr: "不被定义，自有光芒。"
 		},
 		{
 			name: "韩小韩API",
@@ -256,7 +256,7 @@ export default {
   Subtitle: '皮卡乒皮卡乓皮卡乒皮卡乓皮卡乒丘丘丘丘丘丘丘皮卡兵皮卡丘',
   Description: '小杜老师的博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
   Author: '皮妈的法克丘',
-  Motto: '运气是计划之外的东西.',
+  Motto: '不被定义，自有光芒。',
   Avatar: '/assets/images/icon.png',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',

@@ -16,5 +16,5 @@ type: "links"
 name: 小杜老师的博客
 link: https://blog.dujx.top/
 avatar: /assets/images/icon.png
-desc: 运气是计划之外的东西.
+desc: 不被定义，自有光芒。
 ```

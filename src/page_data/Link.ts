@@ -7,7 +7,7 @@ export default {
       "name": "小杜老师的博客",
       "link": "https://blog.dujx.top",
       "avatar": "/assets/images/icon.png",
-      "descr": "运气是计划之外的东西."
+      "descr": "不被定义，自有光芒。"
     },
     {
       "name": "韩小韩API",

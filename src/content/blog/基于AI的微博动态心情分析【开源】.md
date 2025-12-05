@@ -18,7 +18,7 @@ recommend: true
 
 ### 开源地址
 
-[WeiBo-Mood](https://github.com/uxiaohan/WeiBo-Mood)
+[WeiBo-Mood](https://github.com/dujx99/WeiBo-Mood)
 
 [免费AI注册](https://cloud.siliconflow.cn/i/R83F9xkI)
 

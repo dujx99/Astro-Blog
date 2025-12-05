@@ -32,7 +32,7 @@ recommend: true
 
 ### 项目地址
 
-::btn[ZYCS-IMG - Github]{link="https://github.com/uxiaohan/ZYCS-IMG"}
+::btn[ZYCS-IMG - Github]{link="https://github.com/dujx99/ZYCS-IMG"}
 
 ## 如何部署
 

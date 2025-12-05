@@ -22,7 +22,7 @@ CloudFlare是一个非常优秀的CDN服务，但是CloudFlare也有一个大的
 
 ### 项目地址
 
-::btn[CloudflareIP-dnspod-ddns]{link="https://github.com/uxiaohan/CloudflareIP-dnspod-ddns"}
+::btn[CloudflareIP-dnspod-ddns]{link="https://github.com/dujx99/CloudflareIP-dnspod-ddns"}
 
 ### 优化后示例站点
 

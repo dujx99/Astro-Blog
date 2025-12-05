@@ -27,7 +27,7 @@ Han-Analytics 是一个简单的网络分析跟踪器和仪表板，托管在被
 
 ### 项目地址
 
-::btn[HanAnalytics - Github]{link="https://github.com/uxiaohan/HanAnalytics" type="success"}
+::btn[HanAnalytics - Github]{link="https://github.com/dujx99/HanAnalytics" type="success"}
 
 ### 部署
 

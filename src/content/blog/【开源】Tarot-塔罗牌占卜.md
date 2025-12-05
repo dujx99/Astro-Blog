@@ -23,7 +23,7 @@ date: 2024-12-06 09:37:11
 
 ### 项目地址
 
-::btn[Tarot-Web - Github]{link="https://github.com/uxiaohan/Tarot-Web"}
+::btn[Tarot-Web - Github]{link="https://github.com/dujx99/Tarot-Web"}
 
 ## 如何部署
 

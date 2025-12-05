@@ -137,7 +137,7 @@ export default {
 		{
 			name: "韩小韩博客",
 			link: "https://www.vvhan.com",
-			avatar: "https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640",
+			avatar: "/assets/images/icon.png",
 			descr: "运气是计划之外的东西."
 		},
 		{
@@ -288,7 +288,7 @@ export default {
   // 网站作者
   Author: '.𝙃𝙖𝙣',
   // 作者头像
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
+  Avatar: '/assets/images/icon.png',
   // 网站座右铭
   Motto: '运气是计划之外的东西.',
   // Cover 网站缩略图
@@ -310,7 +310,7 @@ export default {
     // 其他页面高度
     PageHeight: '28.88rem',
     // 背景
-    background: "url('/assets/images/home-banner.webp') no-repeat center 60%/cover",
+    background: "url('/assets/images/home-banner.jpg') no-repeat center 60%/cover",
   },
   // 博客主题配置
   Theme: {
